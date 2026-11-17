@@ -12,5 +12,5 @@ depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+test_evidence = "cargo test --offline: 7 lib + 1 integration pass; Secret-Service-style keyring (login/session keyrings, lock/unlock, attribute-indexed secrets, search, dedup) with real JSON persistence + working CLI"
+next_milestone = "D-Bus Secret Service API + encrypted-at-rest backend"
