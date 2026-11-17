@@ -3,7 +3,7 @@ name = "SigmaOS-omarchy-keyring-manager"
 tier = 2
 stability = "beta"
 language = "rust"
-description = "Keyring Manager for SigmaOS inspired by Omarchy Linux"
+description = "Secret keyring manager"
 upstream = []
 
 [contract]
